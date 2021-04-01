@@ -8,6 +8,7 @@
     --header-height: 120px;
     --header-navbar: 30px;
     --header-search: calc(var(--header-height) - var(--header-navbar));
+    --header-sort-bar-height: 46px;
 }
 
 * {
@@ -24,12 +25,6 @@ html {
 
 .mr-l-4 {
     margin-left: 4px;
-}
-
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
 }
 
 .grid-row {
