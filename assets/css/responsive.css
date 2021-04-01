@@ -130,6 +130,10 @@
     .footer .download {
         justify-content: center;
     }
+    .footer .store>img {
+        padding: 6px 8px;
+        height: 30px;
+    }
     @keyframes searchMobile {
         from {
             opacity: 0;
