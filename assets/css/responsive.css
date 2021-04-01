@@ -53,6 +53,10 @@
 /*only mobile*/
 
 @media only screen and (max-width:740px) {
+     :root {
+        --header-height: 55px;
+        --header-navbar: 0px;
+    }
     .hide-on-mobile {
         display: none;
     }
@@ -116,6 +120,15 @@
     }
     .header__cart-product-name {
         max-width: 170px;
+    }
+    .footer h3 {
+        text-align: center;
+    }
+    .footer a {
+        text-align: center;
+    }
+    .footer .download {
+        justify-content: center;
     }
     @keyframes searchMobile {
         from {
